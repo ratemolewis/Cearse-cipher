@@ -30,6 +30,7 @@ public class Decrypt {
 
             }else{
                 cipherText+= ch;
+
             }
 
         }
