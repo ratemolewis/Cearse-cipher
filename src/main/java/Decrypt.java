@@ -3,7 +3,7 @@ public class Decrypt {
         if(shift >26){
             shift = shift%26;
         }
-        else if(shift < 0){
+        else if(shift < 2){
             shift= (shift %26) + 26;
         }
 
