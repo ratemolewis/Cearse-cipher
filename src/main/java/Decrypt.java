@@ -22,7 +22,7 @@ public class Decrypt {
                 }else if(Character.isUpperCase(ch)){
                     char c=(char) (ch - shift);
                     if(c<'A'){
-                        cipherText += (char)(ch + (27 -shift));
+                        cipherText += (char)(ch + (26 -shift));
                     }else{
                         cipherText += c;
                     }
