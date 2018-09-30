@@ -14,7 +14,7 @@ public class Decrypt {
             if(Character.isLetter(ch)){
                 if (Character.isLowerCase(ch)){
                     char c=(char) (ch-shift);
-                    if(c<'A'){
+                    if(c<'a'){
                         cipherText += (char)(ch + (26 -shift));
                     }else{
                         cipherText += c;
