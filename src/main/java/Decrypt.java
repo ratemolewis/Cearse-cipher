@@ -1,6 +1,6 @@
 public class Decrypt {
     public static String decrypt(String plaintText, int shift){
-        if(shift >24){
+        if(shift >26){
             shift = shift%26;
         }
         else if(shift < 0){
