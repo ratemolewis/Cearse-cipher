@@ -4,7 +4,7 @@ public class Decrypt {
             shift = shift%26;
         }
         else if(shift < 0){
-            shift= (shift %26 + 26;
+            shift= (shift % 26) + 26;
         }
 
         String cipherText="";
