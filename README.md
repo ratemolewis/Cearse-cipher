@@ -42,4 +42,4 @@ God.<br>
 Moringa School TMs
 
 ## license
-@MIT. <a href="https://choosealicense.com/licenses/mit/"></a>
+@MIT. <a href="https://choosealicense.com/licenses/mitj/"></a>
